@@ -1,0 +1,41 @@
+# Author Info
+# GitHub: Froffy025
+# Discord: froffy
+
+# Shuttle Notes:
+- type: vessel
+  id: Alnswick
+  parent: BaseVessel
+  name: HME Alnswick
+  description: A luxury heavyweight medical vessel outfitted with an advanced cryogenic medbay, hydroponic garden, and chemistry lab. This ship is designed for the bulk production and distribution of pharameuticals and medical supplies within frontier sectors.
+  price: 250000
+  category: Large
+  group: Medical
+  shuttlePath: /Maps/_Mono/Shuttles/alnswick.yml
+  guidebookPage: Null
+  class:
+  - Medical
+  - Chemistry
+  engine:
+  - AME
+
+- type: gameMap
+  id: Alnswick
+  mapName: 'HME Alnswick'
+  mapPath: /Maps/_Mono/Shuttles/alnswick.yml
+  minPlayers: 0
+  stations:
+    alnswick:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Alnswick MED{1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            Contractor: [ 0, 0 ]
+            MdMedic: [ 0, 0 ]
+            Pilot: [ 0, 0 ]
+            Mercenary: [ 0, 0 ]
