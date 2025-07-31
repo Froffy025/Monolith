@@ -8965,3 +8965,128 @@ Entries:
   id: 1006
   time: '2025-07-27T02:16:06.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1092
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: >-
+        Mass scanners/ship consoles/etc reduced to 512m. Only advanced radar is
+        768m range, again. 
+    - type: Tweak
+      message: >-
+        Re-adds advanced radar to places it was removed from. The mass scanner
+        console is a shit sprite anyways.
+  id: 1007
+  time: '2025-07-27T04:05:59.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1633
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: Projectile speeds of shipguns and ship missiles halved.
+  id: 1008
+  time: '2025-07-27T04:11:45.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1638
+- author: starch70
+  changes:
+    - type: Add
+      message: >-
+        Updated the hallways of Rogue Insurgency hideout (and some other parts).
+        Mostly just visual updates. No more piss lighting hallways.
+  id: 1009
+  time: '2025-07-27T07:52:54.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1639
+- author: starch70
+  changes:
+    - type: Fix
+      message: Fixed gas miners being anchorable.
+    - type: Fix
+      message: Fixed Mono catwalks being rotatable.
+  id: 1010
+  time: '2025-07-27T07:53:24.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1640
+- author: changed TWO
+  changes: []
+  id: 1011
+  time: '2025-07-27T10:47:04.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1645
+- author: starch70
+  changes:
+    - type: Add
+      message: >-
+        Space heaters and racks now use shiptest sprites. Pretty useless change
+        to log.
+  id: 1012
+  time: '2025-07-27T10:50:29.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1643
+- author: starch70
+  changes:
+    - type: Add
+      message: >-
+        Added a lot more sounds to the ambient computer SFX because hearing the
+        same 10 beeps got old.
+    - type: Tweak
+      message: Sfx volume reduced slightly, computer beeps less often
+  id: 1013
+  time: '2025-07-27T18:14:06.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1647
+- author: starch70
+  changes:
+    - type: Fix
+      message: You can no longer use emags on mechs (no more 120mm on ripleys)
+  id: 1014
+  time: '2025-07-27T20:34:00.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1648
+- author: Redrover1760
+  changes:
+    - type: Fix
+      message: >-
+        WSPR now shows its theoretical firerate on examine with well timed
+        bursts of a 7.5 firerate instead of 5 firerate. (This does not actually
+        change how the weapon handles at all)
+  id: 1015
+  time: '2025-07-27T20:35:35.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1651
+- author: Redrover1760
+  changes:
+    - type: Fix
+      message: Lecter spawns in weapon cases now.
+    - type: Tweak
+      message: Heavy weapon cases have more space now.
+  id: 1016
+  time: '2025-07-27T20:36:13.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1650
+- author: tonotom1
+  changes:
+    - type: Tweak
+      message: >-
+        Salvage wreck maints lockers more common and loot pool expanded.
+        Hopefully they should be a bit more fun to open.
+    - type: Tweak
+      message: >-
+        Unremoved exped cloning scanner, syndiedrobe and salvage high cap
+        welding fuel, PACMAN
+    - type: Tweak
+      message: >-
+        Actual salvage bananium, bluespace, and diamonds rates were higher than
+        planned and had to be reduced. Sorry.
+    - type: Tweak
+      message: >-
+        Cargo crates from wrecks have been revised to be much more rewarding and
+        less disruptive to the salvage gameloop.
+    - type: Add
+      message: >-
+        Pill bottle with ten strange pills. Yes, all random. This can be found
+        in the rare salvmaint gacha pool.
+  id: 1017
+  time: '2025-07-27T21:17:58.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1606
+- author: starch70
+  changes:
+    - type: Remove
+      message: Retired Orit, Miriam, and Eden.
+    - type: Fix
+      message: >-
+        Fixed a minor typo in Tzipora description. Also fixed it being exped
+        capable.
+  id: 1018
+  time: '2025-07-27T21:20:32.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1646
