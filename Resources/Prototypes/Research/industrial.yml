@@ -16,11 +16,11 @@
 # SPDX-FileCopyrightText: 2024 ErhardSteinhauer
 # SPDX-FileCopyrightText: 2024 FungiFellow
 # SPDX-FileCopyrightText: 2024 GreaseMonk
-# SPDX-FileCopyrightText: 2024 Ilya246
 # SPDX-FileCopyrightText: 2024 Menshin
 # SPDX-FileCopyrightText: 2024 Nemanja
 # SPDX-FileCopyrightText: 2024 Pieter-Jan Briers
 # SPDX-FileCopyrightText: 2025 Ark
+# SPDX-FileCopyrightText: 2025 Ilya246
 # SPDX-FileCopyrightText: 2025 Myzumi
 # SPDX-FileCopyrightText: 2025 Redrover1760
 # SPDX-FileCopyrightText: 2025 Whatstone
@@ -120,6 +120,7 @@
   - SolarControlComputerCircuitboard
   - SolarTrackerElectronics
   - EmitterCircuitboard
+  - ContainmentFieldGeneratorCircuitboard # Mono
 
 - type: technology
   id: AtmosphericTech
@@ -167,6 +168,7 @@
   - HellfireFreezerMachineCircuitBoard
   - PortableScrubberMachineCircuitBoard
   - HolofanProjector
+  - CrystallizerMachineCircuitboard # Mono
   #  - FireExtinguisherBluespace # DeltaV
   technologyPrerequisites:
   - AtmosphericTech
@@ -189,9 +191,9 @@
   # - Fulton # Frontier
   # - FultonBeacon # Frontier
   - BorgModuleJetpack # Frontier
-  - NFBlueprintPowerDrill # Frontier
-  - NFBlueprintJawsOfLife # Frontier
-  - NFBlueprintWelderExperimental # Frontier
+  #- NFBlueprintPowerDrill # Frontier
+  #- NFBlueprintJawsOfLife # Frontier
+  #- NFBlueprintWelderExperimental # Frontier
 
 - type: technology
   id: MassExcavation
@@ -203,10 +205,10 @@
   tier: 2
   cost: 12500
   recipeUnlocks:
-  - OreBagOfHolding
+  #- OreBagOfHolding
   - MiningDrillDiamond
   - AdvancedMineralScannerEmpty
-  - NFBlueprintOreBagOfHolding # Frontier
+  #- NFBlueprintOreBagOfHolding # Frontier
   - NFBlueprintMiningDrillDiamond # Frontier
   - NFBlueprintAdvancedMineralScannerEmpty # Frontier
   - BorgModuleAdvancedMining # Frontier
@@ -214,24 +216,24 @@
 
 # Tier 3
 
-- type: technology
-  id: BluespaceStorage
-  name: research-technology-bluespace-storage
-  icon:
-    sprite: Clothing/Back/Backpacks/holding.rsi
-    state: holding
-  discipline: Industrial
-  tier: 3
-  cost: 15000
-  recipeUnlocks:
-  - ClothingBackpackHolding
-  - ClothingBackpackSatchelHolding
-  - ClothingBackpackDuffelHolding
-  - ClothingBackpackMessengerHolding # Frontier
-  - NFBlueprintClothingBackpackHolding # Frontier
-  - NFBlueprintClothingBackpackSatchelHolding # Frontier
-  - NFBlueprintClothingBackpackDuffelHolding # Frontier
-  - NFBlueprintClothingBackpackMessengerHolding # Frontier
+#- type: technology
+#  id: BluespaceStorage
+#  name: research-technology-bluespace-storage
+#  icon:
+#    sprite: Clothing/Back/Backpacks/holding.rsi
+#    state: holding
+#  discipline: Industrial
+#  tier: 3
+#  cost: 15000
+#  recipeUnlocks:
+#  - ClothingBackpackHolding
+#  - ClothingBackpackSatchelHolding
+#  - ClothingBackpackDuffelHolding
+#  - ClothingBackpackMessengerHolding # Frontier
+#  - NFBlueprintClothingBackpackHolding # Frontier
+#  - NFBlueprintClothingBackpackSatchelHolding # Frontier
+#  - NFBlueprintClothingBackpackDuffelHolding # Frontier
+#  - NFBlueprintClothingBackpackMessengerHolding # Frontier
 
 - type: technology
   id: PortableFission
